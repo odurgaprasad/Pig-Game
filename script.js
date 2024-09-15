@@ -59,3 +59,12 @@ btnHold.addEventListener("click", function () {
     }
   }
 });
+
+btnReset.addEventListener("click", function () {
+  score1.textContent = 0;
+  score2.textContent = 0;
+  currentScore = 0;
+  scores[activeplayer] = 0;
+  current1.textContent = 0;
+  current2.textContent = 0;
+});
